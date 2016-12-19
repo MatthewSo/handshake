@@ -12,7 +12,7 @@ int main() {
 
   from_server = client_handshake( &to_server );
 
-  char buffer[100];
+  char buffer[MESSAGE_BUFFER_SIZE];
   printf("enter message: ");
   fgets( buffer, sizeof(buffer), stdin );
   char *p = strchr(buffer, '\n');

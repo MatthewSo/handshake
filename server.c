@@ -11,7 +11,7 @@ void process( char * s );
 int main() {
 
   int to_client, from_client;
-  char buffer[1000];
+  char buffer[MESSAGE_BUFFER_SIZE];
 
   to_client = server_handshake( &from_client );
 
