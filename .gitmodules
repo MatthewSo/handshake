@@ -1,3 +1,6 @@
 [submodule "shaina_peters_matt_so"]
 	path = shaina_peters_matt_so
 	url = https://github.com/MatthewSo/handshake
+[submodule "shaniapeters_mattso"]
+	path = shaniapeters_mattso
+	url = https://github.com/MatthewSo/handshake
