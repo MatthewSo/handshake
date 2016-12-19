@@ -49,7 +49,6 @@ int client_handshake(int * from_client) {
 
   //Step 5
   int to_server = open(send, O_RDONLY);
-  //char * recc = (char *) malloc(sizeof(char));
   char recc[MESSAGE_BUFFER_SIZE];
   //Step 8
   read(to_server, recc, MESSAGE_BUFFER_SIZE);
